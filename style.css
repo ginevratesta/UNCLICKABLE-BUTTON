@@ -10,7 +10,7 @@ body {
 #container {
   border: double;
   border-width: 20px;
-  border-color:#7e47eb;
+  border-color: #7e47eb;
   border-radius: 20px;
   padding: 30px;
   background-color: white;
@@ -45,16 +45,16 @@ h1 {
 }
 
 .crazyButton {
-    position: absolute;
-    transition: top 150ms, left 150ms ease-in-out;
+  position: absolute;
+  transition: top 150ms, left 150ms ease-in-out;
 }
 
 .modify {
-  margin-left:100px;
+  margin-left: 100px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 100px;
   height: 40px;
-  border:double;
+  border: double;
   border-width: 5px;
   background-color: #7e47eb;
   color: white;
