@@ -3,16 +3,16 @@ const container = document.querySelector("#container");
 const newButton = document.createElement('button');
 let counter = 0;
 
-function setRandomPosition(event) {
+function setRandomPosition(ev) {
   const maxX = container.clientWidth - (newButton.clientWidth + setPlay.clientWidth);
   const maxY = container.clientHeight - (newButton.clientHeight + setPlay.clientHeight);
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
   
-  if (event.target === setPlay) {
+  if (ev.target === setPlay) {
     setPlay.style.top = `${randomY}px`;
     setPlay.style.left = `${randomX}px`;
-  } else if (event.target === newButton) {
+  } else if (ev.target === newButton) {
     const newButtonX = container.clientWidth - (newButton.clientWidth + setPlay.clientWidth);
     const newButtonY = container.clientHeight - (newButton.clientHeight + setPlay.clientHeight);
     const newButtonRandomX = Math.random() * newButtonX;
