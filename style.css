@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #7E47EB;
     height: 90vh;
 }
@@ -9,6 +12,7 @@ body{
     background-color:white;
     width:500px;
     height: 500px;
+    position: relative;
 }
 
 .crazyButton{
