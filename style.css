@@ -8,6 +8,9 @@ body {
 }
 
 #container {
+  border: double;
+  border-width: 20px;
+  border-color:#7e47eb;
   border-radius: 20px;
   padding: 30px;
   background-color: white;
@@ -28,7 +31,6 @@ body {
   background-color: #7e47eb;
   color: white;
   border-radius: 50%;
-  border-style: solid;
   border: double;
   border-width: 20px;
   text-align: center;
