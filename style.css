@@ -1,0 +1,24 @@
+body{
+    background-color: #7E47EB;
+    height: 90vh;
+}
+
+
+#container{
+    padding: 30px;
+    background-color:white;
+    width:500px;
+    height: 500px;
+}
+
+.crazyButton{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    background-color: #7E47EB;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: top 150ms, left 150ms ease-in-out;
+}
