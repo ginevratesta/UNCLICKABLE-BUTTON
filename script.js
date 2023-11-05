@@ -39,7 +39,10 @@ function setRandomPosition(ev) {
     newButton.classList.add("crazyButton", "modify");
     newButton.addEventListener("mouseover", setRandomPosition);
   }
+
+
   if (ev.target === yes) {
+    counter--;
     title.innerText = "I Love You Too!";
   }
 }
