@@ -10,6 +10,7 @@ function setRandomPosition(ev) {
     const randomY = Math.floor(Math.random() * maxY);
     
     console.log(ev.target);
+
     if (ev.target === setPlay) {
         setPlay.style.top = `${randomY}px`;
         setPlay.style.left = `${randomX}px`;
@@ -29,7 +30,7 @@ function setRandomPosition(ev) {
         container.appendChild(newButton);
         newButton.innerText = setPlay.innerText;
         newButton.id = "button1"
-        newButton.classList.add("crazyButton")
+        newButton.classList.add("crazyButton" , "modify")
         newButton.addEventListener("mouseover", setRandomPosition);
     }
 }
