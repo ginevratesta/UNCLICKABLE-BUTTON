@@ -23,8 +23,8 @@ function setRandomPosition(ev) {
       container.clientWidth - (newButton.clientWidth + setPlay.clientWidth);
     const newButtonY =
       container.clientHeight - (newButton.clientHeight + setPlay.clientHeight);
-    const newButtonRandomX = Math.random() * newButtonX;
-    const newButtonRandomY = Math.random() * newButtonY;
+    const newButtonRandomX = Math.floor(Math.random() * newButtonX);
+    const newButtonRandomY = Math.floor(Math.random() * newButtonY);
 
     newButton.style.top = `${newButtonRandomY}px`;
     newButton.style.left = `${newButtonRandomX}px`;
